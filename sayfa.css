@@ -44,3 +44,30 @@ p {
   grid-row: 4 / 6;
   background-color: #76b5c5;
 }
+
+#button {
+  display: grid;
+  height: 100px;
+  weight: 100px;
+  place-items: center;
+  background-color: white;
+  border: 3px solid rebeccapurple;
+  border-radius: 7px;
+  color: rebeccapurple;
+  cursor: pointer;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  padding: 8px 16px;
+}
+#button:hover {
+  background-color: lavender;
+}
+#button:active {
+  background-color: rebeccapurple;
+  color: white;
+}
+#button:focus-visible {
+  box-shadow: 0 0 0 2px white, 0 0 0 5px rebeccapurple;
+  outline: none;
+}
