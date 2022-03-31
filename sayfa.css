@@ -45,29 +45,33 @@ p {
   background-color: #76b5c5;
 }
 
-#button {
-  display: grid;
-  height: 100px;
-  weight: 100px;
-  place-items: center;
-  background-color: white;
-  border: 3px solid rebeccapurple;
-  border-radius: 7px;
-  color: rebeccapurple;
-  cursor: pointer;
-  font-family: 'Open Sans', sans-serif;
-  font-size: 16px;
-  font-weight: 700;
-  padding: 8px 16px;
-}
-#button:hover {
-  background-color: lavender;
-}
-#button:active {
-  background-color: rebeccapurple;
-  color: white;
-}
-#button:focus-visible {
-  box-shadow: 0 0 0 2px white, 0 0 0 5px rebeccapurple;
-  outline: none;
-}
+article {
+        width: 400px;
+        background: #fff;
+        padding: 20px 20px 0;
+        font-size: 18px;
+        max-height: 270px;
+        overflow: hidden;
+        transition: max-height 1s;
+        text-align: justify;
+        margin-top: 20px;
+        margin-bottom: 16px;
+      }
+
+      article.open {
+        max-height: 1000px;
+      }
+
+      button {
+        background: #0e0b22;
+        color: #fff;
+        padding: 0.6rem;
+        margin-top: 20px;
+        border: none;
+        border-radius: 4px;
+      }
+
+      button:hover {
+        cursor: pointer;
+        background: #1e1d25;
+      }
