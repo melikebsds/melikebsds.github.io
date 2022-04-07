@@ -18,7 +18,7 @@ p {
   background-color: rgb(8, 164, 175);
   text-align: center;
 }
-.two {
+.solKutu {
   grid-column: 1;
   grid-row: 1 / 11;
   background-color: rgb(30,129,176);
@@ -38,7 +38,7 @@ p {
   font-size: 17px;
   text-align:left;
   left: 75px;
-  color:rgb(197, 201, 219);
+  color:rgb(6, 24, 122);
 }
 
 #basGrup{
@@ -56,18 +56,24 @@ p {
   color:rgb(6, 24, 122);
 }
 
-.three {
+.sagUstKutu {
   grid-column: 2/4;
   grid-row: 1 / 6;
   background-color: #76b5c5;
 }
 
-.five {
+.sagAltKutu {
   grid-column: 2/4;
   grid-row: 6 / 11;
   background-color: #76b5c5;
 }
 
+#baslik{
+  position:relative;
+  text-align:left;
+  left: 70px;
+  color:rgb(55, 56, 64);
+}
       button {
         background: #0e0b22;
         color: #fff;
