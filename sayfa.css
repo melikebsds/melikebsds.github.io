@@ -1,4 +1,4 @@
-h1 {
+h3 {
   color: black;
   text-align: center;
 }
@@ -13,35 +13,26 @@ p {
   grid-auto-rows: minmax(100px, auto);
   background-color: rgba(211, 211, 211, 0.3)  
 }
-.one {
+.son {
   grid-column: 1/4;
-  grid-row: 1;
+  grid-row: ;
   background-color: rgb(8, 164, 175);
   text-align: center;
 }
 .two {
   grid-column: 1;
-  grid-row: 2 / 6;
+  grid-row: 1 / 7;
   background-color: rgb(30,129,176);
 }
 .three {
-  grid-column: 2;
-  grid-row: 2 / 4;
+  grid-column: 2/4;
+  grid-row: 1 / 4;
   background-color: #76b5c5;
 }
-.four {
-  grid-column: 3;
-  grid-row: 2 / 4;
-  background-color: #76b5c5;
-}
+
 .five {
-  grid-column: 2;
-  grid-row: 4 / 6;
-  background-color: #76b5c5;
-}
-.six {
-  grid-column: 3;
-  grid-row: 4 / 6;
+  grid-column: 2/4;
+  grid-row: 4 / 7;
   background-color: #76b5c5;
 }
 
