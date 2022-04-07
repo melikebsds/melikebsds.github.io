@@ -15,43 +15,58 @@ p {
 }
 .son {
   grid-column: 1/4;
-  grid-row: ;
   background-color: rgb(8, 164, 175);
   text-align: center;
 }
 .two {
   grid-column: 1;
-  grid-row: 1 / 7;
+  grid-row: 1 / 11;
   background-color: rgb(30,129,176);
+  position: relative;
+  text-align: center;
 }
+
+.bottom-left {
+  position: absolute;
+  font-size: 25px;
+  bottom: 20px;
+  left: 16px;
+}
+
+#bilgi{
+  position:relative;
+  font-size: 17px;
+  text-align:left;
+  left: 75px;
+  color:white;
+}
+
+#basGrup{
+  position:relative;
+  text-align:left;
+  left: 50px;
+  color:rgb(49, 59, 55);
+}
+
+#beceri{
+  position:relative;
+  font-size: 20px;
+  text-align:left;
+  left: 75px;
+  color:rgb(44, 46, 45);
+}
+
 .three {
   grid-column: 2/4;
-  grid-row: 1 / 4;
+  grid-row: 1 / 6;
   background-color: #76b5c5;
 }
 
 .five {
   grid-column: 2/4;
-  grid-row: 4 / 7;
+  grid-row: 6 / 11;
   background-color: #76b5c5;
 }
-
-article {
-        width: 400px;
-        background: #fff;
-        padding: 20px 20px 0;
-        font-size: 18px;
-        max-height: 270px;
-        overflow: hidden;
-        transition: max-height 1s;
-        text-align: justify;
-        margin-top: 20px;
-        margin-bottom: 16px;
-      }
-
-      article.open {
-        max-height: 1000px;
-      }
 
       button {
         background: #0e0b22;
