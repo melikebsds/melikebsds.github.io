@@ -1,12 +1,10 @@
-const article = document.querySelector("#content");
-function showMore() {
-     if (article.className == "open") {
-       // read less
-       article.className = "";
-       button.innerHTML = "Show more";
-     } else {
-       //read more
-       article.className = "open";
-       button.innerHTML = "Show less";
-     }
-  }
+const colors = ['black', 'white'];
+const texts = ["Aydınlık Moda Geç", "Karanlık Moda Geç"];
+let index = 0;
+
+btn.addEventListener('click', function onClick() {  
+  document.body.style.background = colors[index];
+  btn.textContent  = texts[index];
+  index = index >= colors.length - 1 ? 0 : index + 1;
+  
+});
