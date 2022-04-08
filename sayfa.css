@@ -40,12 +40,25 @@ p {
   left: 75px;
   color:rgb(6, 24, 122);
 }
+.iconDetails {
+  margin-left:2%;
+  float:left; 
+  height:40px;
+  width:40px;	
+} 
 
-#basGrup{
+.icon_text {
+	width:100%;
+	height:auto;
+	padding:1%;
+}
+#baslik{
   position:relative;
   text-align:left;
   left: 50px;
   color:rgb(6, 15, 64);
+  margin:0px;
+  margin-left:60px;
 }
 
 #altGrup{
@@ -56,9 +69,47 @@ p {
   color:rgb(6, 24, 122);
 }
 
+.container {
+    background-color: rgb(112, 157, 179);
+    width: 70%;
+    border-radius: 15px;
+    margin-top:-15px;
+    margin-left:70px;
+}
+      
+.skill {
+    background-color: rgb(6, 24, 122);
+    color: white;
+    padding: 1%;
+    text-align: right;
+    font-size: 10px;
+    border-radius: 15px;
+}
+.java {
+    width: 70%;
+}
+.python {
+    width: 50%;
+}
+.html {
+    width: 20%;
+}
+.css {
+    width: 20%;
+}
+.c {
+    width: 60%;
+}
+.turk {
+    width: 100%;
+}
+.ing {
+    width: 60%;
+}
+
 .ayirici{
-    border-top: 1px solid #adaaaa;
-    margin: 0 25px;
+    border-top: 1px solid #709db3;
+    margin: 10px 25px;
 }
 
 .sagUstKutu {
@@ -73,12 +124,6 @@ p {
   background-color: #76b5c5;
 }
 
-#baslik{
-  position:relative;
-  text-align:left;
-  left: 70px;
-  color:rgb(84, 80, 80);
-}
 #detay{
   position:relative;
   font-size: 20px;
