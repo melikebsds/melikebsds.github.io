@@ -29,8 +29,8 @@ p {
 .bottom-left {
   position: absolute;
   font-size: 25px;
-  bottom: 20px;
-  left: 16px;
+  top: 350px;
+  left: 100px;
 }
 
 #bilgi{
@@ -56,6 +56,11 @@ p {
   color:rgb(6, 24, 122);
 }
 
+.ayirici{
+    border-top: 1px solid #adaaaa;
+    margin: 0 25px;
+}
+
 .sagUstKutu {
   grid-column: 2/4;
   grid-row: 1 / 6;
@@ -72,7 +77,14 @@ p {
   position:relative;
   text-align:left;
   left: 70px;
-  color:rgb(55, 56, 64);
+  color:rgb(84, 80, 80);
+}
+#detay{
+  position:relative;
+  font-size: 20px;
+  text-align:left;
+  left: 75px;
+  color:rgb(0, 0, 0);
 }
       button {
         background: #0e0b22;
