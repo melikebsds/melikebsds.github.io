@@ -1,7 +1,7 @@
 * {
   box-sizing: border-box;
 }
-@media (max-width: 600px) {
+@media (max-width: 900px) {
   .wrapper{   
     flex-direction: column;
   }
@@ -26,6 +26,7 @@ p {
 }
 .son {
   grid-column: 1/4;
+  grid-row:12;
   background-color: rgb(8, 164, 175);
   text-align: center;
 }
@@ -127,12 +128,14 @@ p {
   grid-column: 2/4;
   grid-row: 1 / 6;
   background-color: #76b5c5;
+  position: relative;
 }
 
 .sagAltKutu {
   grid-column: 2/4;
   grid-row: 6 / 11;
   background-color: #76b5c5;
+  position:relative;	
 }
 
 #detay{
