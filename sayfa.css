@@ -1,7 +1,14 @@
+@media (max-width: 1024px) {
+body img {
+max-width: 100px;
+height: 100px;
+}
+	
 h3 {
   color: black;
   text-align: center;
 }
+	
 p {
   font-family: verdana;
   font-size: 20px;
