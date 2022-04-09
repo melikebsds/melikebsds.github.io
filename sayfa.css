@@ -31,7 +31,7 @@ p {
   grid-row:12;
   background-color: rgb(8, 164, 175);
   text-align: center;
-  position:relative
+  position:absolute
 }
 .solKutu {
   grid-column: 1;
@@ -131,14 +131,14 @@ p {
   grid-column: 2/4;
   grid-row: 1 / 6;
   background-color: #76b5c5;
-  position: relative;
+  position: absolute;
 }
 
 .sagAltKutu {
   grid-column: 2/4;
   grid-row: 6 / 11;
   background-color: #76b5c5;
-  position:relative;	
+  position:absolute;	
 }
 
 #detay{
