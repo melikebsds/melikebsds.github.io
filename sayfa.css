@@ -28,7 +28,7 @@ h3 {
 	
 p {
   font-family: verdana;
-  font-size: 20px;
+  font-size: 2%;
 }
 .wrapper {
   display: grid;
@@ -55,8 +55,8 @@ p {
 .bottom-left {
   position: absolute;
   font-size: 25px;
-  top: 350px;
-  left: 100px;
+  top: 35%;
+  left: 10%;
 }
 
 #bilgi{
@@ -81,15 +81,15 @@ p {
 #baslik{
   position:relative;
   text-align:left;
-  left: 50px;
+  left: 5%;
   color:rgb(6, 15, 64);
-  margin:0px;
-  margin-left:60px;
+  margin:0%;
+  margin-left:6%;
 }
 
 #altGrup{
   position:relative;
-  font-size: 20px;
+  font-size: 2%;
   text-align:left;
   left: 75px;
   color:rgb(6, 24, 122);
@@ -100,7 +100,7 @@ p {
     width: 70%;
     border-radius: 15px;
     margin-top:-15px;
-    margin-left:70px;
+    margin-left:7%;
 }
       
 .skill {
@@ -108,7 +108,7 @@ p {
     color: white;
     padding: 1%;
     text-align: right;
-    font-size: 10px;
+    font-size: 1%;
     border-radius: 15px;
 }
 .java {
@@ -135,7 +135,7 @@ p {
 
 .ayirici{
     border-top: 1px solid #709db3;
-    margin: 10px 25px;
+    margin: 1% 25px;
 }
 
 .sagUstKutu {
@@ -154,7 +154,7 @@ p {
 
 #detay{
   position:relative;
-  font-size: 20px;
+  font-size: 2%;
   text-align:left;
   left: 75px;
   color:rgb(0, 0, 0);
@@ -163,7 +163,7 @@ p {
         background: #0e0b22;
         color: #fff;
         padding: 0.6rem;
-        margin-top: 20px;
+        margin-top: 2%;
         border: none;
         border-radius: 4px;
       }
