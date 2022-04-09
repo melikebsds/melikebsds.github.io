@@ -37,7 +37,7 @@ p {
   grid-column: 1;
   grid-row: 1 / 11;
   background-color: rgb(30,129,176);
-  position: relative;
+  position: absolute;
   text-align: center;
 }
 
