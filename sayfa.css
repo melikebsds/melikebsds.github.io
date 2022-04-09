@@ -1,9 +1,6 @@
 * {
   box-sizing: border-box;
 }
-body {
-  margin: 0;
-}
 @media (max-width: 600px) {
   .wrapper{   
     flex-direction: column;
