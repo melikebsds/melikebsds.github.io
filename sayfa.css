@@ -4,12 +4,11 @@
 body {
   margin: 0;
 }
-@media (max-width: 700px) {
+@media (max-width: 600px) {
   .wrapper{   
     flex-direction: column;
   }
-  .son{
-	  width:100%;}
+
 }
 
 h3 {
